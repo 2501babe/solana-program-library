@@ -43,14 +43,14 @@ spl-memo = { version = "4.0.0", path = "../../memo/program", features = [
   "no-entrypoint",
 ] }
 strum = "0.25"
-strum_macros = "0.25"
+strum_macros = "0.26"
 tokio = "1.14"
 
 [dev-dependencies]
 solana-test-validator = "=1.17.2"
 assert_cmd = "2.0.12"
-serial_test = "2.0.0"
-tempfile = "3.8.1"
+serial_test = "3.0.0"
+tempfile = "3.10.1"
 
 [[bin]]
 name = "spl-token"
